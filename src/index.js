@@ -9,6 +9,6 @@ console.log(`Here you go: ${RANDOMFRUIT}`);
 
 console.log(`Delicious! May I have another?`);
 
-const FRUITSLEFT = remove(RANDOMFRUIT, foods);
+const FRUITSLEFT = remove(foods, RANDOMFRUIT);
 
 console.log(`I'm sorry, we're all out. We have ${FRUITSLEFT.length} left`);
